@@ -3,6 +3,7 @@ package com.codewithissy;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        UserandPasswords userandPasswords = new UserandPasswords();
+        LoginPage logininPage = new LoginPage(userandPasswords.getLogininfo());
     }
 }
